@@ -3,20 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Synergy</title>
-    <style media="screen">\
-    #dsq-count-scr
-    #disqus_thread
-    {
-      style=width: 400px;
-      style=height: 30px;
-      style=float:right
+    <style media="screen">
+    header{
+      border-bottom: 2px solid black;
+      padding: 20px;
+    }
+    #disqus{
+      border-left: 2px solid black;
+      width:400;
+      height:500;
+      float: right;
     }
     </style>
   </head>
   <body>
 
         <header>
-          <h1><p style = "margin-top:80px">This is Synergy</p></h1>
+          <h1><p>This is Synergy</p></h1>
         </header>
 
       <nav>
@@ -28,16 +31,12 @@
       </nav>
 
 
-      <article>
-        <h2><p style = "margin-top:100px">방명록</p></h2>
-      </article>
 
 
-
-    <p>
+    <p id="disqus">
       <script id="dsq-count-scr" src="//synergycomment.disqus.com/count.js" async></script>
       <div id="disqus_thread"></div>
-      <script style="width: 400px" style="height: 30px">
+      <script>
       /**
       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
