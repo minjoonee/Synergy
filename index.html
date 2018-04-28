@@ -1,11 +1,4 @@
-<?php
-$conn=mysqli_connect('localhost', 'root', '771029', 'test_table', '3307');
-$db=mysqli_select_db($conn , "test_table");
-if($db)
- echo "db 연결성공";
-else
- echo "db 연결 실패";
-?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -46,6 +39,14 @@ else
 
     <div class="right_line">
       <li>이곳은 방명록입니다.</li>
+      <?php
+      $conn=mysqli_connect('localhost', 'root', '771029', 'test_table', '3307');
+      $db=mysqli_select_db($conn , "test_table");
+      if($db)
+       echo "db 연결성공";
+      else
+       echo "db 연결 실패";
+      ?>
 
     </div>
    <div class="">
