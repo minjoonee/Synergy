@@ -44,3 +44,11 @@ h2{
 body{
   color: rgb(201, 76, 76);
 }
+
+#list{
+  border-right: 2px solid black;
+  float:right;
+  padding-right: 400px;
+  width:auto;
+  height:500px;
+}
