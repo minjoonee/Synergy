@@ -10,8 +10,9 @@ width:auto;
 height:500px;
 }
 
-.right_line{
+.left_line{
   border-left: 6px solid black;
+  float:left;
   width:auto;
   height:500px;
 }
