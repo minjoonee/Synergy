@@ -48,7 +48,7 @@ body{
 #list{
   border-right: 2px solid black;
   float:right;
-  padding-right: 400px;
+  padding-left: 30px;
   width:auto;
   height:500px;
 }
