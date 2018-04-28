@@ -10,10 +10,10 @@ width:auto;
 height:500px;
 }
 
-.left_line{
-  border-left: 6px solid black;
+.right_line{
+  border-right: 6px solid black;
   float:left;
-  width:auto;
+  width:250px;
   height:500px;
 }
 nav ol{
