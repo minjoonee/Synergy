@@ -1,0 +1,2 @@
+<li><a href="http://localhost/synergy/Home_Project.php?id=1">present Project</a></li>
+<li><a href="http://localhost/synergy/Home_Project.php?id=2">project history</a></li>

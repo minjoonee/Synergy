@@ -1,0 +1,4 @@
+<li><a href="http://localhost/synergy/Home.php">HOME</a></li>
+<li><a href="http://localhost/synergy/Home_Introduce.php?id=9">INTRODUCE</a></li>
+<li><a href="http://localhost/synergy/Home_Project.php?id=10">PROJECT</a></li>
+<li><a href="http://localhost/synergy/Home_Community.php?id=11">COMMUNITY</a></li>

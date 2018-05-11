@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <script>
+      function setting() {
+         var x = document.getElementsByClassName("naver");
+         for ( var i = 0; i < x.length; i++){
+         x[i].style.display = "none";
+         }
+      }
+
+      function searching(value) {
+         if (value == "google"){
+            var x = document.getElementsByClassName("naver");
+            for ( var i = 0; i < x.length; i++){
+            x[i].style.display = "none";
+            }
+
+            var y = document.getElementsByClassName("google");
+            for ( var i = 0; i < x.length; i++){
+            y[i].style.display = "block";
+            }
+         }
+         if (value == "naver"){
+            var x = document.getElementsByClassName("google");
+            for ( var i = 0; i < x.length; i++){
+            x[i].style.display = "none";
+            }
+
+            var y = document.getElementsByClassName("naver");
+            for ( var i = 0; i < x.length; i++){
+            y[i].style.display = "block";
+            }
+         }
+      }
+   </script>
+   <style>
+   .naver input[type="text"] {
+      font-size: 12px;
+      width: 200px;
+      vertical-align: middle;
+      border-radius: 3px;
+      border: 2px solid green;
+   }
+   .naver button {
+      color: white;
+      border-radius: 3px;
+      height: 20px;
+      vertical-align: middle;
+      font-size: 12px;
+      border: 1px solid black;
+      background: green;
+   }
+
+   .google input[type="text"] {
+      font-size: 12px;
+      width: 200px;
+      vertical-align: middle;
+      border-radius: 3px;
+      border: 2px solid blue;
+   }
+   .google button {
+      color: white;
+      border-radius: 3px;
+      height: 20px;
+      vertical-align: middle;
+      font-size: 12px;
+      border: 1px solid black;
+      background: blue;
+   }
+
+
+   </style>
+</head>
+
+<body>
+  <div class= "search-container">
+   <form class="naver" method="get" target="_blank" action="https://search.naver.com/search.naver?"+query >
+      <input type="text" placeholder="Search..." name="query"/>
+      <button type="submit" >Search</button>
+   </form>
+
+
+   <script>
+   setting();
+   </script>
+
+   <form class="google" method="get" target="_blank" action="https://www.google.co.kr/search?source=hp&ei=LP_GWrf6OcLK0ASUyo2wAQ&q="+q+"&oq="+q+"&gs_l=psy-ab.3..0i67k1l2j0l8.1603.2360.0.2523.6.5.0.0.0.0.144.559.0j4.5.0....0...1c.1.64.psy-ab..1.5.691.6..35i39k1j0i131k1.134.QyNY-G3hEXA" >
+      <input type="text" placeholder="Search..." name="q"/>
+      <button type="submit" >Search</button>
+   </form>
+  </div>
+
+  <div class="search-box">
+      <select name = 'searchingText' onChange="searching(value)">
+         <option value = "google"> google </option>
+         <option value ="naver"> naver </option>
+      </select>
+  </div>
+</body>
+</html>
