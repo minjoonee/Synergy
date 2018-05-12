@@ -1,3 +1,9 @@
+<?php
+    session_start();
+   $conn=mysqli_connect('localhost', 'root', '771029', 'board', '3306');
+   $db=mysqli_select_db($conn , "board");
+   $tablename = "guest_book";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,9 +12,33 @@
    <title>SYNERGY</title>
    <link rel=" shortcut icon" href="a.ico">
    <link rel="icon" href="a.ico">
-   <link rel="stylesheet" type="text/css" href="http://localhost/synergy/NewCSS.css">
+   <link rel="stylesheet" type="text/css" href="NewCSS.css">
 </head>
 <body>
+
+  <!-- 로그인, 회원가입 , 화원 아이디
+    로그인 안했을 시 로그인창 안뜸.
+    로그인 시 로그아웃 창 뜸.
+    !-->
+  <div class="login">
+    <?php
+      if(!isset($_SESSION['id']))
+      {
+        echo "<a href='login.html'>로그인</a>
+        <a href='signup.html'>회원가입</a>";
+      }
+      if(isset($_SESSION['id']))
+      {
+        $check_id = $_SESSION['id'];
+        echo
+        "$check_id<br>";
+        echo "<a href='logout.php'>로그아웃</a>
+        <a href='info.php'>회원정보</a>";
+      }
+      ?>
+  </div>
+
+
     <header>
         <a href="http://localhost/synergy/Home.php"><img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY59s12KOqbtvE8Rzk9FqdW1rv2LZYnxdKLg5sZYjPYGCJamL9" /></a>
         <?php
@@ -33,9 +63,61 @@
            </div>
          </div>
     </div>
-    <div class="img">
-      <img id="com" src="http://ppss.kr/wp-content/uploads/2017/12/006-9.jpg" />
+
+
+    <!-- 방명록 보여주는 곳-->
+    <div class="">
+        <?php
+       $query = "select * from $tablename";
+       $result = mysqli_query($conn, $query);
+         ?>
+         <table>
+         <tr>
+             <td width=60 bgcolor=#CCCCCC>
+                 <p align=center>아이디</p>
+             </td>
+             <td width=400 bgcolor=#CCCCCC>
+                 <p align=center>내용</p>
+             </td>
+             <td width=150 bgcolor=#CCCCCC>
+                 <p align=center>날짜</p>
+             </td>
+         </tr>
+         <?php // 디비에 있는 자료 목록
+         // 삭제기능도 추가, 수정은 아직...
+           while ($array = mysqli_fetch_array($result)) {
+             // code...
+
+               echo "
+                 <tr>
+                    <td width=60>
+                        <p align=center>$array[id]</p>
+                    </td>
+                    <td width=400>
+                        <p align=center>$array[content]</p>
+                    </td>
+                    <td width=150>
+                        <p align=center>$array[date]</p>
+                    </td>
+                    <td width=60>
+                      <a href='Guest_book_delete.php?id=$array[idx]'>삭제</a>
+                      </td>
+                </tr>
+                   ";
+           }
+            ?>
+      </table>
     </div>
+
+<!-- 방명록 쓰기 -->
+    <div class="">
+      <form class="" action="Guest_book_write.php"  method="post">
+      <textarea name="content" maxlength=500 style="margin: 0px; width: 409px; height: 38px;"></textarea>
+          <input type="submit" value="글쓰기"><br>
+      </form>
+    </div>
+
+
   <div class="button">
       <a href="https://jbnu.ac.kr/kor/" target="_blank"><img id="jbnu" src="https://www.jbnu.ac.kr/kor/images/logo.png"/></a>
       <a href="https://it.jbnu.ac.kr/itjbnu/2016/inner.php?sMenu=main" target="_blank"><img id="IT" src="https://it.jbnu.ac.kr/itjbnu/2016/img/logoTop.png"/></a>
