@@ -1,26 +1,27 @@
-a{
+a{                                                /*전체 a테그*/
   text-decoration:none;
   color : black;
 }
-a:hover{
+ a:hover{                                         /*전체 a 동작*/
   color:blue;
 }
-body{
+
+body{                                        /*전체 body테그 */
   margin-left: 80px;
   margin-right: 80px;
 }
- header{
-  border-bottom:3px solid black;
+ header{                                        /*전체 hearder테그 */
   display: block;
   padding:20px;
 }
-.naver input[type="text"] {
+
+.naver input[type="text"] {                       /*검색 박스*/
    font-size: 12px;
    width: 200px;
    vertical-align: middle;
    border-radius: 3px;
    border: 2px solid green;
-   margin-left :980px;
+   margin-left :770px;
 }
 .naver button {
    color: white;
@@ -38,9 +39,9 @@ body{
    vertical-align: middle;
    border-radius: 3px;
    border: 2px solid blue;
-   margin-left :980px;
+   margin-left :770px;
 }
-.google button {
+.google button {                           /*검색 박스*/
    color: white;
    border-radius: 3px;
    height: 20px;
@@ -49,71 +50,81 @@ body{
    border: 1px solid black;
    background: blue;
 }
-#logo{
-  margin-bottom: -65px;
+#logo{                                  /*logo */
+  margin-bottom: -60px;
 }
-#cnav1 {
+#cnav1 {                              /*메인 카테고리 */
   width:100%;
   height:55px;
   overflow : hidden;
-  background-color: rgb(135, 206, 235);
+  background-color: #6495ED;
+  border-top:2px solid black;
+  border-top-left-radius:  10px;
+  border-top-right-radius: 10px;
+  border-bottom: 2px solid black;
+  transition:all 1s;
+   display: inline-block;
 }
-#cnav1 ol{
+#cnav1:hover{                   /*메인카테고리 엑션효과*/
+  height:140px;
+}
+#cnav1 ol{                       /*메인카테고리 */
   list-style: none;
   float : right;
 }
-#cnav1 li{
+#cnav1 li{                       /*메인카테고리 - list */
   display: inline;
   font-size: 20px;
+  font-weight: 900;
+  font-family: 'dotum';
   padding-left: 50px;
   padding-right: 50px;
   float:left;
-  font-weight: 900;
+}
+#cnav1 div{                   /*메인 카테고리 -List > 내용*/
+  font-size: 18px;
 }
 
-#cnav2 {
-  height: 900px;
+
+#cnav2 {                       /*메인 카테고리 - 카테고리 */
+  height: 600px;
   width: 250px;
   float : left;
   background-color:rgb(173, 206, 255);
   border-right : 1px solid black;
-
 }
-#cnav2 li{
+#cnav2 li{                       /*메인카테고리 - 카테고리 - list */
   font-size: 20px;
-  font-family: 'Hanna' , 'Jeju Gothic';
-  font-weight: 500;
+  font-family: '맑은고딕';
+  font-weight: 500px;
   list-style: none;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.pic {
+.pic {                        /*1번쨰 칸 */
   float : left;
    border-right : 1px solid black;
    background-color: rgb(173, 206, 255);
    width : 200px;
-   height : 900px;
+   height : 600px;
 }
-.notice {
+.notice {                       /*2번쨰칸*/
   float : left;
   border-right : 1px solid black;
   width : 700px;
-  height : 900px;
+  height : 600px;
 }
-article{
+article{                       /*article (아직 테그 이름 없음)*/
   float:left;
   padding:20px;
 }
-h2{
-  font-size:50px;
-}
-#com{
+#com{                      /*컴퓨터 그림*/
   width : 395px;
-  height: 900px;
+  height: 600px;
 }
-.button{
+.button{                      /*맨밑 버튼*/
   margin-top:30px;
 }
-.button>a{
+.button>a{                      /*맨밑 버튼 a 태그*/
   margin-left:125px;
 }
