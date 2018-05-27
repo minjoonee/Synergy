@@ -1,4 +1,4 @@
-<li><a href="http://localhost/synergy/Home.php">HOME</a></li>
-<li><a href="http://localhost/synergy/Home_Introduce.php?id=9">INTRODUCE</a></li>
-<li><a href="http://localhost/synergy/Home_Project.php?id=10">PROJECT</a></li>
-<li><a href="http://localhost/synergy/Home_Community.php?id=11">COMMUNITY</a></li>
+<li id ="cnav1li"><a href="http://localhost/synergy/Home.php">HOME</a></li>
+<li id ="cnav1li"><a href="http://localhost/synergy/Home_Introduce.php?id=9">INTRODUCE</a><div><br><a href="http://localhost/synergy/Home_Introduce.php?id=9">- Member</a> <br><a href="http://localhost/synergy/Home_Introduce.php?id=9">- location</a> <br><a href="http://localhost/synergy/Home_Introduce.php?id=9">- history</a></div></li>
+<li id ="cnav1li"><a href="http://localhost/synergy/Home_Project.php?id=10">PROJECT</a><div><br><a href="http://localhost/synergy/Home_Project.php?id=10">- Present Project</a><br><a href="http://localhost/synergy/Home_Project.php?id=10">- project history</a></div></li>
+<li id ="cnav1li"><a href="http://localhost/synergy/Home_Community.php?id=11">COMMUNITY</a><div><br><a href="http://localhost/synergy/Home_Community.php?id=11">- Free Board</a><br><a href="http://localhost/synergy/Home_Community.php?id=11">- Notice</a><br><a href="http://localhost/synergy/Home_Community.php?id=11">- QnA</a></div></li>
