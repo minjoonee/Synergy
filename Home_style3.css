@@ -1,0 +1,228 @@
+
+*{margin: 0 auto;}
+
+/* 상단메뉴 */
+#bar{
+  width : 100%;
+  height : 70px;
+  background-color: rgb(255,243,167);
+}
+#barin{
+  height : 70px;
+  width : 1300px;
+  background-color: rgb(255,243,167);
+}
+#log{
+  height : 50px;
+  width : 120px;
+  background-color: #ffdc3c;
+  float: right;
+  font-size: 25px;
+  padding-top: 20px;
+  text-align: center;
+}
+#log>a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(85,85,68);
+  font-size: 25px;
+  font-family: 'Lora', serif;
+}
+#log:hover{
+  background-color: #ffc000;
+  transition: 0.5s;
+}
+#sign{
+  height : 50px;
+  width : 120px;
+  background-color: #ffdc3c;
+  margin-left: 5px;
+  float: right;
+  font-size: 25px;
+  padding-top: 20px;
+  text-align: center;
+}
+#sign>a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(85,85,68);
+  font-size: 25px;
+  font-family: 'Lora', serif;
+}
+#sign:hover{
+  background-color: #ffc000;
+}
+
+/* 로고 글씨 검색 */
+#top{
+  margin-top: 20px;
+  width: 1300px;
+  height: 184px;
+/*background-color : blue;*/
+}
+#lo1{
+  width: 200px;
+  height: 184px;
+  float: left;
+  position: relative;
+  z-index: 0;
+}
+#lo2{
+  width: 200px;
+  height: 184px;
+  float: left;
+  margin-left: -200px;
+  position: relative;
+  z-index: -1;
+}
+#logo:hover #lo2{
+  position: relative;
+  z-index : 2;
+}
+#write{
+  width: 100px;
+  height: 114px;
+  float : left;
+  padding-top: 70px;
+  margin-left: 60px;
+}
+#search{
+  width: 530px;
+  height: 184px;
+  margin-left: 400px;
+margin-right:0px;
+  float:left;
+/*background-color : red;*/
+}
+/* 메뉴*/
+#art{
+  width : 1000px;
+  height :1070px;
+}
+#menu{
+  margin-top: 20px;
+  width:100% ;
+  height : 80px;
+  background-color: rgb(255,243,167);
+}
+#menuin{
+  width : 1300px;
+  height :80px;
+  background-color: #ffdc3c;
+}
+#menuul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#menuli{
+  float : right;
+  color: rgb(85,85,68);
+  font-family: 'Lora', serif;
+  color: rgb(85,85,68);
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+  height: 57px;
+  width: 200px;
+  border-right: 5px solid rgb(255,243,167);
+  padding-top: 23px;
+  text-align: center;
+}
+#menuli>a{                                                /*전체 a테그*/
+  text-decoration:none;
+  color: rgb(85,85,68);
+}
+#menuli:hover{
+  background-color: #ffc000;
+  transition: 0.5s;
+}
+#menuli:hover{
+  background-color: #ffc000;
+  transition: 0.5s;
+}
+/*공지사항 방명록 사진*/
+/* --------------공지사항 css --------------- */
+
+/* ----------------------------------------------------------- */
+
+#art{
+width:1300px;
+height : 580px;
+}
+#infor{
+  width : 665px;
+  height: 580px;
+  float: left;
+}
+#visit{
+  width : 630px;
+  height :440px;
+  float: left;
+}
+
+/* 링크 아이콘*/
+#link{
+  width : 1300px;
+  height: 200px;
+  margin-top: 30px;
+  text-align : center;
+}
+#chon{
+  width : 400px;
+  height: 125px;
+  float : left;
+  padding-top: 75px;
+}
+#it{
+  width : 400px;
+  height: 125px;
+  padding-top: 75px;
+  display: inline-block;
+}
+#lic{
+  width : 400px;
+  height: 125px;
+  padding-top: 75px;
+  float : right;
+}
+/* photo slide*/
+#photoback{
+  width : 100%;
+  height: 600px;
+background-color:rgba(255,243,167 , 0.5);
+}
+#photo{
+  width : 1000px;
+  height: 600px;
+  margin-top: 70px;
+}
+
+#photo > img{
+  width : 1000px;
+  height: 600px;
+}
+#photo > .btn{
+  width : 30px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background: black;
+  color : white;
+  font-size : 12px;
+   margin-top : -300px;
+}
+#photo > #btn1:hover{
+  box-shadow : 0px 0px 10px 0px black;
+}
+#photo > #btn2:hover{
+  box-shadow : 0px 0px 10px 0px black;
+}
+#photo > #btn1{
+  position: relative;
+  float : left;
+}
+#photo > #btn2{
+  position: relative;
+  float : right;
+}

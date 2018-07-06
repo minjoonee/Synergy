@@ -1,0 +1,23 @@
+
+header{
+  border-bottom:1px solid gray;
+  padding:20px;
+}
+#freeboard_list {
+  border-right:1px solid gray;
+  width:500px;
+  height:600px;
+  float:left;
+}
+#freeboard_list ol{
+  list-style:none;
+  padding:0;
+}
+article{
+  float:left;
+  width:500px;
+}
+#paging li{
+    list-style:none;
+    float : right;
+}

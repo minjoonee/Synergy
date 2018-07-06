@@ -1,0 +1,2 @@
+<img id="location_img"src="/img/location.jpg" alt="위치 사진">
+<div id="locaton_ex">전북대학교 공과대학 7호관 443호</div>

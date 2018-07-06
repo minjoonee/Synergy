@@ -1,0 +1,4 @@
+<ul id="catul">
+  <li id = "catli"><a href="/project.php?id=cur">- Current</a></li>
+  <li id = "catli"><a href="/project.php?id=pre">- Previous</a></li>
+</ul>

@@ -1,20 +1,81 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
   <head>
+
     <meta charset="utf-8">
-    <title></title>
+    <title>signup</title>
+    <link rel="shortcut icon" href="/img/pabi.ico">
+    <style>
+      body{
+        font-family:"Malgun Gothic","맑은 고딕","돋움",dotum,sans-serif;
+        text-align:center;
+        margin-top:1%;
+        margin-left: 30%;
+        margin-right: 30%;
+      }
+      /*색깔변경!*/
+      #id:valid {
+        border-color: forestgreen;
+
+      }
+      #id:invalid {
+        border-color: firebrick;
+      }
+      #pw:valid {
+        border-color: forestgreen;
+      }
+      #pw:invalid {
+        border-color: firebrick;
+      }
+      #pwc:valid {
+        border-color: forestgreen;
+      }
+      #pwc:invalid {
+        border-color: firebrick;
+      }
+      hr{
+        border-bottom-color:black;
+        border-width:3px;
+      }
+      fieldset{
+        border-color: black;
+        border-width:3px;
+      }
+    </style>
   </head>
   <body>
-    <form class="" action="signup.php" method="post"><br>
-       아이디 : <input type="text" name="id"><br><br>
-       비밀번호 : <input type="password" name="pw"><br><br>
-       비밀번호 확인 : <input type="password" name="pwc"><br><br>
-       이름 : <input type="text" name="name"><br><br>
-       이메일 : <input type="text" name="email"><br><br>
+    <header>
+      <h1>synergy signup</h1>
+      <!--경로-->
+      <div id ="homelogo">
+        <a href="http://210.117.181.75"><img id="logo" src="/img/SYlogo.jpg" /></a>
+        <div id="write">If you want to go fast, go alone. If you want to go far, go together</div>
+      </div>
+    </header>
 
-       회원가입 동기 : <br><textarea name="content" cols=40 rows=10  maxlength=500></textarea>
+    <hr/>
+    <br/>
+    <fieldset>
+        <!--pattern부분을 수정해서 색깔 바뀌는 기준변경 -->
+    <form class="" action="signup.php" method="post"><br>
+      <h4> 아이디　 : <input type="text" name="id" id="id" placeholder="6자 이상" pattern=".{6,10}" required><br><br>
+       비밀번호 : <input type="password" name="pw" id="pw" placeholder="6자 이상" pattern=".{6,}" required><br><br>
+       다시입력 : <input type="password" name="pwc" id="pwc" pattern=".{6,}" required><br><br>
+       이름　　 : <input type="text" name="name"><br><br>
+       학번　　 :   <input type="text" name="student_id"><br><br><h4>
+
+       회원가입 동기 : <br><textarea name="content"cols=40 rows=10  maxlength=500>  </textarea>
          <br>
        <input type="submit" value="회원가입">
     </form>
+    <P></P>
+    <form action="http://210.117.181.75" method="post">
+    <input type="submit" value="홈으로가기"></form>
+  </fieldset>
+  <div class="button">
+      <a href="https://jbnu.ac.kr/kor/" target="_blank"><img id="jbnu" src="https://www.jbnu.ac.kr/kor/images/logo.png"/></a>
+      <a href="https://it.jbnu.ac.kr/itjbnu/2016/inner.php?sMenu=main" target="_blank"><img id="IT" src="https://it.jbnu.ac.kr/itjbnu/2016/img/logoTop.png"/></a>
+      <a href="http://ck.jbnu.ac.kr/?from=mobile" target="_blank"><img id="CK" src="http://ck.jbnu.ac.kr/images/common/logo.gif"/></a>
+  </div>
   </body>
 </html>

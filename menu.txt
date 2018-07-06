@@ -1,0 +1,6 @@
+<ul id="menuul">
+<li id ="menuli"><a href="http://210.117.181.75/community.php?id=Freeboard">COMMUNITY</a></li>
+<li id ="menuli"><a href="http://210.117.181.75/project.php?id=cur">PROJECT</a></li>
+<li id ="menuli"><a href="http://210.117.181.75/introduce.php?id=mem1">INTRODUCE</a></li>
+<li id ="menuli"><a href="http://210.117.181.75/Home.php">HOME</a></li>
+</div>

@@ -1,0 +1,8 @@
+<ul id="catul">
+  <li class = "catli0"><a href="/introduce.php?id=mem1">- Member</a>
+	<li class="catlili"><a href="/introduce.php?id=mem1">└1기</li>
+	<li class="catlili" ><a href="/introduce.php?id=mem2">└2기</li>
+</li>
+  <li class = "catli"><a href="/introduce.php?id=loc">- Location</a></li>
+  <li class = "catli"><a href="/introduce.php?id=his">- History</a></li>
+</ul>

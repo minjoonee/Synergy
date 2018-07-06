@@ -1,3 +1,0 @@
-<li><a href="http://localhost/synergy/Home_Introduce.php?id=3">Member</a></li>
-<li><a href="http://localhost/synergy/Home_Introduce.php?id=4">location</a></li>
-<li><a href="http://localhost/synergy/Home_Introduce.php?id=5">history</a></li>

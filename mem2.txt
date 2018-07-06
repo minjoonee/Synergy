@@ -1,0 +1,96 @@
+
+        <div id="cat">
+          <div id="catright" >
+          <div style="clear: both;"> &nbsp;</div>
+            <div style = "float: left;">
+              <div style = "float: left;">
+                <img src="/member/SeoJongMin.png" width="240" height="240" alt="사진"/>
+                <p>
+                    <li>14_서종민</li>
+                </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/SoYunTae.jpg" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>14_소윤태</li>
+                  </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/SongGiChon.jpg" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>14_송기천</li>
+                  </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/LeeYeongHyun.JPG" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>14_이영현</li>
+                  </p>
+              </div>
+              <div style="clear: both;"> &nbsp;</div>
+              <div style = "float: left; ">
+                <img src="/member/KimSeongYeon.jpg" width="240" height="240" alt="사진"/>
+                <p>
+                    <li>16_김성연</li>
+                </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/YunHyunSeo.jpg" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>17_윤현서</li>
+                  </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/JeonWonJun.jpg" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>17_전원준</li>
+                  </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/ParkJuHyun.jpg" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>18_박주현</li>
+                  </p>
+              </div>
+              <div style="clear: both;"> &nbsp;</div>
+              <div style = "float: left; ">
+                <img src="/member/ParkJiYeon.jpg" width="240" height="240" alt="사진"/>
+                <p>
+                    <li>18_박지연</li>
+                </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/WooJaYoung.jpg" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>18_우자영</li>
+                  </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/LeeSuYoung.jpg" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>18_이수영</li>
+                  </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/LeeYeIn.jpg" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>18_이예인</li>
+                  </p>
+              </div>
+              <div style="clear: both;"> &nbsp;</div>
+              <div style = "float: left;">
+                <img src="/member/LeeJeongIn.jpg" width="240" height="240" alt="사진"/>
+                <p>
+                    <li>18_이정인</li>
+                </p>
+              </div>
+              <div style = "float: left; margin-left: 10px;">
+                <img src="/member/ChuYeonJu.JPG" width="240" height="240" alt="사진"/>
+                  <p>
+                    <li>18_추연주</li>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+

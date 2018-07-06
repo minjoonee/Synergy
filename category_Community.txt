@@ -1,3 +1,0 @@
-<li><a href="http://localhost/synergy/Home_Community.php?id=6">Free Board</a></li>
-<li><a href="http://localhost/synergy/Home_Community.php?id=7">Notice</a></li>
-<li><a href="http://localhost/synergy/Home_Community.php?id=8">QnA</a></li>

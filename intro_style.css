@@ -1,0 +1,204 @@
+
+*{margin: 0 auto;}
+
+/* 상단메뉴 */
+#bar{
+  width : 100%;
+  height : 70px;
+  background-color: rgb(255,243,167);
+}
+#barin{
+  height : 70px;
+  width : 1300px;
+  background-color: rgb(255,243,167);
+}
+#log{
+  height : 50px;
+  width : 120px;
+  background-color: #ffdc3c;
+  float: right;
+  font-size: 25px;
+  padding-top: 20px;
+  text-align: center;
+}
+#log>a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(85,85,68);
+  font-size: 25px;
+  font-family: 'Lora', serif;
+}
+#log:hover{
+  background-color: #ffc000;
+  transition: 0.5s;
+}
+#sign{
+  height : 50px;
+  width : 120px;
+  background-color: #ffdc3c;
+  margin-left: 5px;
+  float: right;
+  font-size: 25px;
+  padding-top: 20px;
+  text-align: center;
+}
+#sign>a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(85,85,68);
+  font-size: 25px;
+  font-family: 'Lora', serif;
+}
+#sign:hover{
+  background-color: #ffc000;
+}
+
+/* 로고 글씨 검색 */
+#top{
+  margin-top: 20px;
+  width: 1200px;
+  height: 184px;
+}
+#lo1{
+  width: 200px;
+  height: 184px;
+  float: left;
+  position: relative;
+  z-index: 0;
+}
+#lo2{
+  width: 200px;
+  height: 184px;
+  float: left;
+  margin-left: -200px;
+  position: relative;
+  z-index: -1;
+}
+#logo:hover #lo2{
+  position: relative;
+  z-index : 2;
+}
+#write{
+  width: 100px;
+  height: 114px;
+  float : left;
+  padding-top: 70px;
+  margin-left: 60px;
+}
+#search{
+  width: 300px;
+  height: 184px;
+  margin-left: 450px;
+  float:left;
+}
+/* 메뉴*/
+#art{
+  width : 1000px;
+  height :1070px;
+}
+#menu{
+  margin-top: 20px;
+  width:100% ;
+  height : 80px;
+  background-color: rgb(255,243,167);
+}
+#menuin{
+  width : 1300px;
+  height :80px;
+  background-color: #ffdc3c;
+}
+#menuul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#menuli{
+  float : right;
+  color: rgb(85,85,68);
+  font-family: 'Lora', serif;
+  color: rgb(85,85,68);
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+  height: 57px;
+  width: 200px;
+  border-right: 5px solid rgb(255,243,167);
+  padding-top: 23px;
+  text-align: center;
+}
+#menuli>a{                                                /*전체 a테그*/
+  text-decoration:none;
+  color: rgb(85,85,68);
+}
+#menuli:hover{
+  background-color: #ffc000;
+  transition: 0.5s;
+}
+/*왼쪽 카테고리*/
+#cat{
+  width: 1300px;
+  height: 700px;
+}
+#catleft{
+  width: 300px;
+  height: 1578px;
+  background-color: rgb(255,243,167);
+  float : left;
+}
+#catul{
+  list-style: none;
+  padding: 0px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+#catul>.catli{
+  width: 300px;
+  height: 60px;
+  font-size: 25px;
+  float:left;
+  color:rgb(85,85,68);
+  margin-top : 30px;
+}
+#catul>.catli0{
+  width: 300px;
+  height: 40px;
+  font-size: 25px;
+  float:left;
+  color:rgb(85,85,68);
+}
+#catul>.catli:hover{
+  font-size: 30px;
+  transition: 0.4s;
+}
+#catul>.catl0i:hover{
+  font-size: 30px;
+  transition: 0.4s;
+}
+.catli>a{
+text-decoration:none;
+  color: rgb(85,85,68);
+}
+.catli0>a{
+text-decoration:none;
+  color: rgb(85,85,68);
+}
+#catul>.catlili{
+padding-left : 30px;
+}
+#catul>.catlili>a{
+  text-decoration:none;
+  color: rgb(85,85,68);
+}
+/*오른쪽 카테고리*/
+#catright{
+  width: 994px;
+  height: auto;
+  background-color: white;
+  float : right;
+  float: left;
+text-align : center;
+}
+/*위치*/
+#location_img{
+     margin :50px;
+}
